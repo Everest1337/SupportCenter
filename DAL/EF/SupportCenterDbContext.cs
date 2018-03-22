@@ -16,7 +16,7 @@ namespace SC.DAL.EF
   internal class SupportCenterDbContext : DbContext /* 'public' for testing with project 'DAL-Testing'! */
   {
     public SupportCenterDbContext() 
-      : base("SupportCenterDB_EFCodeFirst")
+      : base("MyDB")
     {
       //Database.SetInitializer<SupportCenterDbContext>(new SupportCenterDbInitializer()); // moved to 'SupportCenterDbConfiguration'
     }
