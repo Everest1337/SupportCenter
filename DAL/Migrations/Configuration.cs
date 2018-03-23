@@ -3,6 +3,7 @@ using SC.BL.Domain;
 
 namespace SC.DAL.Migrations
 {
+    //Test
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
